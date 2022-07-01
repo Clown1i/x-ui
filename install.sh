@@ -108,7 +108,7 @@ install_x-ui() {
 
         echo -e "版本：0.3.3.16，开始安装"
         
-        wget -N --no-check-certificate -O /usr/local/x-ui-linux-${arch}.tar.gz https://github.com/Clown1i/x-ui/releases/download/${last_version}/x-ui-linux-${arch}.tar.gz
+        wget -N --no-check-certificate -O /usr/local/x-ui-linux-${arch}.tar.gz https://raw.githubusercontent.com/Clown1i/x-ui/main/x-ui-0.3.3.16.tar.gz
 
     if [[ -e /usr/local/x-ui/ ]]; then
         rm /usr/local/x-ui/ -rf
